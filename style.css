@@ -1,0 +1,453 @@
+body{
+    /* background-color: pink; */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow-y: auto;
+}
+.left{
+    width: 65%;
+    height: 100vh;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+}
+.wrapper{
+    width: 70%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    position: relative;
+}
+.header{
+    text-align: center;
+    color: white;
+}
+h2{
+    font-weight: 800;
+}
+h3{
+    margin-top: 8px;
+    font-size: 25px;
+}
+.logins{
+    margin-top: 20px;
+}
+.name{
+   position: relative;
+}
+.nameclass{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+}
+.email{
+    margin-top: 50px;
+    position: relative;
+    
+}
+.emailclass{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+}
+.pass{
+    margin-top: 49px;
+    position: relative;
+}
+.passclass{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+}
+.agree{
+    margin-top: 25px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #132b83;
+    color: white;
+    border: 0;
+    margin-top: 25px;
+}
+.with{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.line{
+    width: 30%;
+    height: 1px;
+    background-color: white;
+}
+.socials{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.facebook{
+    width: 15%;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: border-radius 0.3s ease, transform 0.5s ease ;
+}
+.facebook:hover {
+    border-radius: 0%;
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+.twitter{
+    width: 15%;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: border-radius 0.3s ease, transform 0.5s ease ;
+}
+.twitter:hover{
+    border-radius: 0%;
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+.google{
+    width: 15%;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: border-radius 0.3s ease, transform 0.5s ease ;
+}
+.gooogle:hover{
+    border-radius: 0%;
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+.linkedin{
+    width: 15%;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: border-radius 0.3s ease, transform 0.5s ease ;
+}
+.linkedin:hover{
+    border-radius: 0%;
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+.faceimg{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.wrap{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.circle1{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle2{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle3{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle4{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle5{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle6{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle7{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle8{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle9{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle10{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle11{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle12{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle13{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle14{
+    width: 7%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.square1{
+    margin-top: 20px;
+    width: 80%;
+    height: 20%;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8100);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.usericon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #132b83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+.nameclass::placeholder{ 
+    padding-left: 60px;
+}
+.namelabel{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.emailicon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #132b83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+.emailclass::placeholder{
+    padding-left: 60px;
+}
+.emaillabel{
+    position: absolute;
+    left: 0;
+    top: 28%;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.passicon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #132b83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+.passclass::placeholder{
+    padding-left: 60px;
+}
+.passlabel{
+    position: absolute;
+    left: 0;
+    top: 44%;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.log{
+    text-align: center;
+    margin-top: 15px;
+}
+.account{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
